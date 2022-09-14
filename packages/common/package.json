@@ -1,0 +1,12 @@
+{
+  "name": "@monorepo-managers/commons",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^5.2.1"
+  },
+  "scripts": {
+    "test": "echo 'tests in commons package working'"
+  }
+}

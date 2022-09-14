@@ -1,0 +1,13 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo 'testing frontend module'"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}

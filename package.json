@@ -1,0 +1,19 @@
+{
+  "name": "monorepo",
+  "private": "true",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/minsgiman/monorepo.git",
+  "author": "mskang <mskang@linecorp.com>",
+  "license": "MIT",
+  "workspaces": [
+    "frontend",
+    "packages/*"
+  ],
+  "scripts": {
+    "start": "yarn --cwd frontend start"
+  },
+  "devDependencies": {
+    "lerna": "^5.5.1"
+  }
+}
