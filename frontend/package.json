@@ -8,6 +8,6 @@
     "test": "echo 'testing frontend module'"
   },
   "dependencies": {
-    "lodash": "^4.17.21"
+    "@monorepo-managers/commons": "*"
   }
 }
